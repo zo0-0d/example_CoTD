@@ -1,0 +1,82 @@
+* { font-family: monospace; background-color:black;}
+
+.header4 { border: 5px solid white; border-radius: 100px;
+           width:360px; height: 360px; margin: 50px auto;
+           background-image: url(../map/img3.jpeg);
+           background-size: cover }
+
+/* Navigasi */
+.nav { text-align: center; word-spacing: 10px}
+li { display: inline-flex;
+     border-radius:10px; }
+    
+.download-4 { color: black; 
+              padding: 10px 15px;
+              border: 1px solid white; border-radius: 10px;
+              font-weight: bold;
+              text-decoration:none }
+.nav-item4 { color: black;  background-color:burlywood; 
+             padding: 10px 15px;
+             border: 1px solid white; border-radius: 10px;
+             font-weight: bold;
+             text-decoration:none }
+.nav-item4:hover { color:white; background-color: rgb(94, 74, 52) }
+.nav-item4:active { color:white; background-color: rgb(75, 57, 35) }
+
+.download-4:hover { box-shadow: 0 0 5px orange, 0 0 10px orange, 0 0 20px orangered }
+.download-4:active { background-color: lightslategray; background-blend-mode: multiply;}
+.download1-4 { background-image: url(../map/logo1.jpeg); background-size: 36px; 
+               background-repeat: no-repeat; background-color: white;
+               padding-left: 45px;}
+.download2-4 { background-image: url(../map/logo2.jpeg); background-size: 45px; 
+               background-repeat: no-repeat; background-color: white; background-position-y:25%;
+               padding-left: 45px;}
+
+/* Contact */
+
+.contact { display: flex;
+           flex-direction: column;
+           justify-content: center; 
+           margin:10px auto;
+           width:525px; height:785px;
+           background-color: rgba(30, 238, 169, 0.774);
+           padding: 50px; border: 5px solid rgba(15, 80, 60, 0.979);
+           border-radius: 20px;
+           background-image: url(../map/border2.png); 
+           background-repeat:no-repeat;
+           background-size: cover;
+           background-blend-mode: color-dodge;
+           background-position: 25%;}
+
+.form-group { background-color: rgb(201, 197, 162);
+              margin: 10px auto; padding: 5px 30px;
+              border: 6px double rgba(73, 72, 55, 0.808); 
+              border-radius: 10px }
+
+.form-group label { color: rgb(19, 18, 18); background-color:rgb(201, 197, 162);
+                    font-weight: bold; font-size: large; }
+.form-group input { margin: 10px ; padding: 5px 10px;
+                    width: 215px;
+                    border-radius: 10px;  border:3px dotted rgb(87, 51, 51);
+                    background-color: beige;
+                    font-family: 'Trebuchet MS'}
+
+.form-group textarea { margin: 10px; padding: 10px; 
+                       height: 300px;
+                       width: 270px;
+                       border-radius: 10px; border:3px dotted rgb(87, 51, 51);
+                       background-color: beige; 
+                       font-family: 'Trebuchet MS'}
+
+.kirim { display: flex; justify-content: center;
+         background-color: rgb(201, 197, 162) }
+.btn { background-color:  rgba(116, 114, 83, 0.808); 
+       font-size: large; font-weight: bold;
+       padding: 5px 10px;
+       border: 3px dotted rgb(87, 51, 51); border-radius: 10px }
+
+.btn:hover { background-color: rgba(58, 56, 48, 0.808);
+             color: white;        
+             cursor: pointer; }
+.btn:active { background-color: rgb(58, 56, 48) ;}
+

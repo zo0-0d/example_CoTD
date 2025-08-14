@@ -1,0 +1,112 @@
+* { font-family: monospace; background-color:black;}
+
+.header2 { border: 5px solid white; border-radius: 100px;
+           width:360px; height: 360px; margin: 50px auto;
+           background-image: url(../map/img2.jpeg);
+           background-size: cover }
+
+/* Navigasi */
+.nav { text-align: center; word-spacing: 10px}
+li { display: inline-flex;
+     border-radius:10px; }
+      
+.download-2 { color: black; 
+              padding: 10px 15px;
+              border: 1px solid white; border-radius: 10px;
+              font-weight: bold;
+              text-decoration:none }
+.nav-item2 { color: black;  background-color:palevioletred; 
+             padding: 10px 15px;
+             border: 1px solid white; border-radius: 10px;
+             font-weight: bold;
+             text-decoration:none }
+.nav-item2:hover { color:white; background-color: rgb(114, 53, 114) }
+.nav-item2:active { padding:9px 14px; color:white; background-color: rgb(117, 15, 117) }
+
+.download-2:hover { box-shadow: 0 0 5px palevioletred, 0 0 10px palevioletred, 0 0 20px purple }
+.download-2:active { background-color: lightslategray; background-blend-mode: multiply;}
+.download1-2 { background-image: url(../map/logo1.jpeg); background-size: 36px; 
+               background-repeat: no-repeat; background-color: white;
+               padding-left: 45px;}
+.download2-2 { background-image: url(../map/logo2.jpeg); background-size: 45px; 
+               background-repeat: no-repeat; background-color: white; background-position-y:25%;
+               padding-left: 45px;}
+
+/* Monster */
+table { border-spacing: 10px; 
+        text-align: center;
+        margin:10px auto;}
+th { background-color: rgb(230, 167, 32);
+     padding:10px 30px;
+     border-radius: 10px}
+tr, td { border-radius: 10px }
+td p { width:185px; height:185px;
+       margin: 0; text-align: center;
+       border:2px solid white; border-radius: 10px; }
+
+.no { font-weight: bold }
+.map { background-color: white }
+.map1 { background-image: url(../map/Paradise.webp); background-size: cover;}
+.map2 { background-image: url(../map/Great_Lakes.webp); background-size: cover;}
+.map3 { background-image: url(../map/Costa_Rica.webp); background-size: cover;}
+.map4 { background-image: url(../map/Alaska.webp); background-size: cover;}
+.map5 { background-image: url(../map/Australia.webp); background-size: cover;}
+.map6 { background-image: url(../map/Scotland.webp); background-size: cover;}
+.map7 { background-image: url(../map/Thailand.webp); background-size: cover;}
+
+.r1, .r1m { background-color: lightskyblue }
+.r2, .r2m { background-color: rgb(85, 231, 200) }
+.r3, .r3m { background-color: rgb(236, 174, 168) }
+.r4, .r4m { background-color: rgb(164, 231, 231) }
+.r5, .r5m { background-color: khaki }
+.r6, .r6m { background-color: rgb(209, 176, 133) }
+.r7, .r7m { background-color: rgb(224, 201, 69) }
+
+.name { width:50px;
+        font-weight: bold; font-style:italic; font-size: large;
+        padding: 15px;
+        background-image: url(../map/border2.png);
+        background-position: 50%; 
+        background-size: contain;
+        background-blend-mode: luminosity; }
+
+.mythh { width:100px }
+.myth { padding:10px; border-radius: 20px; font-family: 'Trebucet MS'; }
+.myth1, .mb1 { border:5px solid rgb(52, 94, 121) }
+.myth2, .mb2 { border:5px solid rgb(43, 133, 121) }
+.myth3, .mb3 { border:5px solid rgb(170, 117, 113) }
+.myth4, .mb4 { border:5px solid rgb(104, 141, 141) }
+.myth5, .mb5 { border:5px solid rgb(155, 149, 99) }
+.myth6, .mb6 { border:5px solid rgb(82, 69, 54) }
+.myth7, .mb7 { border:5px solid rgb(85, 76, 24) }
+
+.r1m { background-image: url(../monster/Shredder.jpeg) }
+.r2m { background-image: url(../monster/Bessie.jpeg) }
+.r3m { background-image: url(../monster/Don_Pedro.jpeg) }
+.r4m { background-image: url(../monster/Kraken.webp) } 
+.r5m { background-image: url(../monster/Bunyip.jpeg) }
+.r6m { background-image: url(../monster/Nessie.webp) }
+.r7m { background-image: url(../monster/Naga.webp) }
+
+.monn { width: 140px }
+.mon { width: 125px; padding:10px; border:0; margin:5px auto;
+       background-repeat: no-repeat; background-size: contain;
+       background-blend-mode: multiply ; background-position: center }
+       
+.mb1 { background-color: lightskyblue }
+.mb2 { background-color: rgb(85, 231, 200) }
+.mb3 { background-color: rgb(236, 174, 168) }
+.mb4 { background-color: rgb(164, 231, 231) }
+.mb5 { background-color: khaki }
+.mb6 { background-color: rgb(209, 176, 133) }
+.mb7 { background-color: rgb(224, 201, 69) }
+
+.mb { border-radius: 20px;}
+
+.row1:hover .name { box-shadow: 0 0 3px white, 0 0 15px blue, 0 0 25px rgb(72, 72, 216) }
+.row2:hover .name { box-shadow: 0 0 3px white, 0 0 5px green, 0 0 27px rgb(36, 185, 36) }
+.row3:hover .name { box-shadow: 0 0 3px white, 0 0 5px purple, 0 0 33px rgb(170, 46, 170) }
+.row4:hover .name { box-shadow: 0 0 3px white, 0 0 5px grey, 0 0 22px whitesmoke}
+.row5:hover .name { box-shadow: 0 0 3px white, 0 0 5px red, 0 0 30px rgb(255, 51, 0) } 
+.row6:hover .name { box-shadow: 0 0 3px white, 0 0 5px aquamarine, 0 0 33px rgb(84, 167, 139) }
+.row7:hover .name { box-shadow: 0 0 3px white, 0 0 5px yellow, 0 0 25px orangered }
