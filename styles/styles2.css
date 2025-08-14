@@ -103,10 +103,11 @@ td p { width:185px; height:185px;
 
 .mb { border-radius: 20px;}
 
-.row1:hover .name { box-shadow: 0 0 3px white, 0 0 15px blue, 0 0 25px rgb(72, 72, 216) }
-.row2:hover .name { box-shadow: 0 0 3px white, 0 0 5px green, 0 0 27px rgb(36, 185, 36) }
-.row3:hover .name { box-shadow: 0 0 3px white, 0 0 5px purple, 0 0 33px rgb(170, 46, 170) }
-.row4:hover .name { box-shadow: 0 0 3px white, 0 0 5px grey, 0 0 22px whitesmoke}
-.row5:hover .name { box-shadow: 0 0 3px white, 0 0 5px red, 0 0 30px rgb(255, 51, 0) } 
-.row6:hover .name { box-shadow: 0 0 3px white, 0 0 5px aquamarine, 0 0 33px rgb(84, 167, 139) }
-.row7:hover .name { box-shadow: 0 0 3px white, 0 0 5px yellow, 0 0 25px orangered }
+.row1:hover .name { box-shadow: 0 0 3px white, 0 0 7px blue, 0 0 8px rgb(72, 72, 216) }
+.row2:hover .name { box-shadow: 0 0 3px white, 0 0 7px green, 0 0 8px rgb(36, 185, 36) }
+.row3:hover .name { box-shadow: 0 0 3px white, 0 0 7px purple, 0 0 8px rgb(170, 46, 170) }
+.row4:hover .name { box-shadow: 0 0 3px white, 0 0 7px grey, 0 0 8px whitesmoke}
+.row5:hover .name { box-shadow: 0 0 3px white, 0 0 7px red, 0 0 8px rgb(255, 51, 0) } 
+.row6:hover .name { box-shadow: 0 0 3px white, 0 0 7px aquamarine, 0 0 8px rgb(84, 167, 139) }
+
+.row7:hover .name { box-shadow: 0 0 3px white, 0 0 7px yellow, 0 0 8px orangered }
